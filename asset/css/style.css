@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(161, 161, 161);
+}
+
+
+#boite1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+}
+
+
+
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+
+.anim-1 {    
+    margin-left: 40%;
+    animation: 2s linear 0s infinite alternate animation-1;
+}
+
+
+@keyframes boite1 {
+
+}
+
+@keyframes animation-1 {
+    0% {
+        margin-top: 0%;
+        background-color: aqua;
+
+    }
+    10% {
+        margin-top: 60%;
+    }
+    100% {
+        margin-top: 80%;
+        background-color: yellow;
+    }
+  }
+
+
+  .anim-2 {
+    animation: 2s linear 0s infinite alternate animation-2;
+  }
+
+  @keyframes animation-2 {
+    from {
+        margin-top: 0%;
+        margin-bottom: 80%;
+        background-color: blue;
+    }
+    to {
+        margin-top: 80%;
+        margin-left: 80%;
+        background-color: red;
+    }
+  }
+
+
+
+  .anim-3 {
+    animation: 2s linear 0s infinite alternate animation-3;
+  }  
+  
+  @keyframes animation-3 {
+    20% {
+        margin-top: 0%;
+        margin-left: 0%;
+        background-color: green;
+    }
+    25% {
+        margin-top: 0%;
+        margin-left: 80%;
+
+    }
+    50% {
+        margin-top: 77%;
+        margin-left: 0%;
+
+    }
+    100% {
+        margin-top: 77%;
+        margin-left: 80%;
+        background-color: blueviolet;
+    }
+
+
+
+  }
+
